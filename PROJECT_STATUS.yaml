@@ -1,0 +1,45 @@
+# Declared status, not verified release readiness.
+# stage: prototype is provisional: no formal lifecycle stage is declared.
+# Empty modules/risks/debt lists mean no supported entries recorded, not absence.
+# updated.at_commit references inspected HEAD before the status commit; approved template convention.
+schema_version: 1
+project:
+  id: worker_app
+  name: Worker App — JuristSoft
+  repo: kolevmvk/worker_app
+  kind: mobile-app
+  stage: prototype
+updated:
+  at: "2026-09-24T11:35:19Z"
+  by: codex
+  at_commit: "368469573439024a3f63d7ef96e468c773d5cab9"
+summary: The inspected branch contains only README.md and .gitignore. README names Worker App — JuristSoft;
+  the initial commit describes Flutter project-folder setup. No Flutter application source, package manifest
+  or test suite is present in this checkout.
+modules: []
+risks: []
+blockers: []
+technical_debt: []
+pending_verification:
+- id: V1
+  claim: The documented checks or repository-specific acceptance review have been completed.
+  module: null
+  how: Review this repository role and the initial scaffold with the owner; no runnable application or
+    test suite exists at this HEAD.
+  status: not_run
+  evidence: null
+next_actions: []
+release:
+  target_version: null
+  checklist:
+  - id: RC1
+    title: Release acceptance and intended deployment or repository handoff verified by the owner.
+    status: not_run
+    evidence: null
+agents:
+  last_session:
+    agent: codex
+    at: "2026-09-24T11:35:19Z"
+    summary: Added a source-grounded Control Center status snapshot. Functional and release checks were
+      not run.
+    commits: 1
